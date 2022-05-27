@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('../_imag/pexels-pixabay-271816.jpg');
+    background-size: 2000px;
+    background-position: center center;
+}
+            /* cabeçalho*/
+div#logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: #ffffff;
+    position: absolute;
+    background: #1f1f1f2d;
+    padding-left: 20px;
+    padding-right: 1110px;
+    padding-top: 30px;
+    padding-bottom: 500px;
+    top: 40px;
+}
+
+div#barra{
+    font-size: 13pt;
+    text-align: right;
+    padding: 10px;
+    background: #000000;
+}
+a#b1{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b2{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b3{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+div#iden p{
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+p#inf{
+    color: #ffffff;
+    position: absolute;
+    font-size: 14pt;
+    top: 200px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+table{
+    color: #ffffff;
+    position: absolute;
+    top:250px;
+    background: #00137c;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: 15pt;
+    left: 400px;
+}
+
+.cd{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+}
+
+figure{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+footer{
+    color: white;
+    font-size: 15pt;
+    top: 574px;
+    width: 100%;
+    text-align: center;
+    background: black;
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

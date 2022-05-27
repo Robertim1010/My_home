@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/terc.css">
+    <link rel="stylesheet" href="../_css/form.css">
+    <title>My_home</title>
+</head>
+<body>
+    <div id="logo">
+        <h1>My_Home</h1>
+    </div>
+
+    <div id="barra">
+        <a href="../inicio.html" id="b1">Inicio</a>
+        <a href="../contato.html" id="b2">Contato</a>
+        <a href="../empresa.html" id="b3">Empresa</a>
+
+        <div id="iden">
+            <p>Informações sobre o imóvel:</p>
+        </div>
+
+        <table id="tabelaspec">
+            <tr><td class="ce">Quartos</td><td class="cd"> 4</td></tr>
+            <tr><td class="ce">Banheiros</td><td class="cd">2</td></tr>
+            <tr><td rowspan="2" class="ce">Adicional</td><td class="cd">2 andares, garagem</td></tr>
+<tr><td class="cd">5 janelas</td></tr>
+            <tr><td class="ce">Valor do imóvel</td><td class="cd">R$ 30.000,00</td></tr>
+            <tr><td class="ce">Aluguel do imóvel</td><td class="cd">R$ 800,00</td></tr>
+
+        </table>
+
+        <p id="inf">Os melhores imóveis para você na palma da sua mão, aproveite ao máximo as nossas ofertas e divulgue nosso site para seus amigos.</p>
+
+    <figure>
+        <img src="../_imag/pexels-pixabay-164558.jpg" width="320px" height="300px">
+    </figure>
+</div>
+
+<form action="" method="post" name="f_contato">
+    <legend>Registrar enterece</legend>
+    <p id="form"><label for=""></label>Nome<input type="text" name="nom" size="20" maxlength="30" placeholder=" Primeiro nome"></p>
+    <p id="form"><label for=""></label>Telefone<input type="tel" name="telefone" size="11" maxlength="11" placeholder="12345-6789"></p>
+    <p id="form"><label for=""></label>Nome completo<input type="text" name="nom3" size="30" maxlength="50" placeholder=" Nome completo"></p>
+    <p id="form"><label for=""></label>E-mail<input type="text" name="email" size="40" maxlength="50" placeholder=" email@.com"></p>
+    <input type="button" id="but" value="Registrar" name="mostre" id="mostrar" onclick="mostrar()">
+</form>
+
+<script lang="JavaScript">
+    var nom;
+var nom2;
+var nomc;
+var email;
+
+function mostrar(){
+
+    nom = document.f_contato.nom.value;
+    num = document.f_contato.telefone.value;
+    email = document.f_contato.email.value;
+    
+    nomc = `${nom} ${nom2}`;
+
+    alert(`Olá ${nom}, agradecemos pela seu interesse em nossos serviços, entraremos em contato pelo seu e-mail: ${email} ou atravéz do seu telefone ${num} para mais detalhes.`);
+}
+</script>
+
+<footer> 
+    <p class="copy">Robert_michael &copy;</p>
+</footer>
+
+</body>
+</html>

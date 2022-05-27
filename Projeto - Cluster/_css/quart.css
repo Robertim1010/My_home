@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('../_imag/pexels-pixabay-271816.jpg');
+    background-size: 2000px;
+    background-position: center center;
+
+}
+            /* cabeçalho*/
+div#logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: #ffffff;
+    position: absolute;
+    background: #1f1f1f2d;
+    padding-left: 20px;
+    padding-right: 1110px;
+    padding-top: 30px;
+    padding-bottom: 500px;
+    top: 40px;
+}
+
+div#barra{
+    font-size: 13pt;
+    text-align: right;
+    padding: 10px;
+    background: #000000;
+}
+a#b1{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b2{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b3{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+p#text{
+    color: #ffffff;
+    font: normal 17pt times;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+h1#loc{
+    color: #ffffff;
+    position: absolute;
+    top: 250px;
+    left: 40%;
+}
+
+iframe{
+    position: absolute;
+    top: 300px;
+}
+
+div#cont li#li1{
+    position: absolute;
+    top: 250px;
+    font-size: 20pt;
+    text-align: center;
+    padding: 30px;
+    list-style: none;
+}
+div#cont li#li2{
+    position: absolute;
+    top: 350px;
+    font-size: 20pt;
+    text-align: center;
+    padding: 30px;
+    list-style: none;
+}
+div#cont li#li3{
+    position: absolute;
+    top: 450px;
+    font-size: 20pt;
+    text-align: center;
+    padding: 30px;
+    list-style: none;
+}
+div#cont a{
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+}
+
+a#wat{
+    color: #30cc00;
+    background: #444444a4;
+}
+a#fac{
+    color: #000e8d;
+    background: #444444a4
+}
+a#ins{
+    color: #d44300;
+    background: #444444a4
+}
+
+div#tut h1{
+    color: #ffffff;
+    position: absolute;
+    top: 225px;
+    right: 470px;
+    background: #00000079;
+    padding-bottom: 300px;
+    padding-left: 170px;
+    padding-right: 180px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+video{
+    position: absolute;
+    top: 250px;
+    right: 500px;
+    width: 400px;
+    height: 300px;
+}
+
+footer{
+    color: white;
+    font-size: 15pt;
+    top: 574px;
+    width: 100%;
+    text-align: center;
+    background: black;
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

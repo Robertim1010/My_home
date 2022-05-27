@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('../_imag/FUNDO.JPG');
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+}
+            /* cabeçalho*/
+div#logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: #ffffff;
+    background: #1f1f1f70;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 890px;
+    padding-right: 1150px;
+    position: absolute;
+    top: 40px;
+}
+
+
+div#men{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 70pt;
+    color: #ffffff;
+    top: 270px;
+    left: 350px;
+}
+
+div#peq{
+    font-size: 15pt;
+    position: absolute;
+    top: 500px;
+    left: 40%;
+    background: #000000;
+    border-radius: 10px;
+    padding: 20px;
+}
+div#peq a{
+    text-decoration: none;
+    color: #d84400;
+}
+div#peq a:hover{
+    color: #ffffff;
+}
+
+div#exp{
+    text-align: center;
+    color: #ffffff;
+    font: normal 15pt times;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+div#bara{
+    font-size: 13pt;
+    text-align: right;
+    padding: 10px;
+    background: #000000;
+}
+a#b1{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b2{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b3{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+
+section#cabecalho{
+    border-bottom: 1px black;
+}
+
+
+/* RODAPÉ */
+
+footer{
+    color: white;
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    width: 100%;
+    position: absolute;
+    top: 850px;
+}
+.copy{
+    font: normal 17pt Times;
+    text-align: center;
+}

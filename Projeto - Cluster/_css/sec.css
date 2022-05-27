@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('../_imag/pexels-pixabay-271816.jpg');
+    background-size: 3000px;
+    background-position: center center;
+}
+            /* cabeçalho*/
+div#logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: #ffffff;
+    position: absolute;
+    background: #1f1f1f2d;
+    padding-left: 20px;
+    padding-right: 1093px;
+    padding-top: 30px;
+    padding-bottom: 1070px;
+    top: 40px;
+
+}
+
+div#barra{
+    font-size: 13pt;
+    text-align: right;
+    padding: 10px;
+    background: #000000;
+}
+a#b1{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b2{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+a#b3{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+div#iden p{
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+ul#a1{
+    font-size: 15pt;
+    position: absolute;
+    top: 400px;
+}
+ul#a1 a{
+    background: white;
+    padding-top: 180px;
+    padding-left: 60px;
+    padding-right: 63px;
+    padding-bottom: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+div#div1 figure{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+
+
+ul#a2{
+    font-size: 15pt;
+    position: absolute;
+    top: 700px;
+}
+ul#a2 a{
+    background: white;
+    padding-top: 180px;
+    padding-left: 60px;
+    padding-right: 63px;
+    padding-bottom: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+div#div2 figure{
+    position: absolute;
+    top: 530px;
+    left: 30px;
+}
+
+
+ul#a3{
+    font-size: 15pt;
+    position: absolute;
+    top: 1000px;
+}
+ul#a3 a{
+    background: white;
+    padding-top: 180px;
+    padding-left: 60px;
+    padding-right: 63px;
+    padding-bottom: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+div#div3 figure{
+    position: absolute;
+    top: 830px;
+    left: 30px;
+}
+
+img{
+    margin-right: 60px;
+}
+footer{
+    text-align: center;
+    font-size: 17pt;
+    color: white;
+    background-color: #000000;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: absolute;
+    top: 1100px;
+}
